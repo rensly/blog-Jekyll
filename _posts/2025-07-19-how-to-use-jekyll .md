@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "使用Jekyll创建一个博客"
-date:   2025-07-19 10:08:57 +0800
+date:   2025-08-19 10:08:57 +0800
 categories: jekyll update
 ---
 
@@ -11,16 +11,16 @@ categories: jekyll update
 使用Jekyll创建一个博客。
 
 ## 什么是Jekyll？
-**静态网站生成器**：将Markdown文件转换为HTML网站
-**GitHub Pages原生支持**：无需额外配置即可使用
-**主题丰富**：提供多种现成的主题和布局
-**插件系统**：扩展功能的插件生态系统
+- **静态网站生成器**：将Markdown文件转换为HTML网站
+- **GitHub Pages原生支持**：无需额外配置即可使用
+- **主题丰富**：提供多种现成的主题和布局
+- **插件系统**：扩展功能的插件生态系统
 
 ## 使用Jekyll主题
-**选择主题**：从Jekyll主题库或GitHub Pages支持的主题中选择
-**配置_config.yml**：自定义网站标题、描述和其他设置
-**创建内容**：使用Markdown编写博客文章和页面
-**本地预览**：使用Jekyll本地服务器预览网站
+- **选择主题**：从Jekyll主题库或GitHub Pages支持的主题中选择
+- **配置_config.yml**：自定义网站标题、描述和其他设置
+- **创建内容**：使用Markdown编写博客文章和页面
+- **本地预览**：使用Jekyll本地服务器预览网站
 
 主要步骤：
 1. 建立git仓库
@@ -40,13 +40,6 @@ gem install jekyll bundler
 jekyll -v
 ```
 2、本地预览
-```
-# 创建新的Jekyll站点
-jekyll new my-blog
-
-# 进入站点目录
-cd my-blog
-
 # 启动本地服务器
 bundle exec jekyll serve
 ```
@@ -59,3 +52,5 @@ bundle exec jekyll serve
 2、本地预览查看效果。
 
 3、git上传。
+
+
